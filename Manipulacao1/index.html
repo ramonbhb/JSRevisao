@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos no DOM</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+
+        </nav>
+    </header>
+    <main>
+        <article>
+            <section>
+                <input type="number" placeholder="Digite o valor 1" id="vl1" name="vl1">
+                <input type="number" placeholder="Digite o valor 2" id="vl2" name="vl2">
+                <button id="btn1" class="button" onClick="limpar()">C</button>
+                <button id="btn1" class="button" onClick="operacao('+')">+</button>
+                <button id="btn2" class="button" onClick="operacao('/')">/</button>
+                <button id="btn3" class="button" onClick="operacao('-')">-</button>
+                <button id="btn4" class="button" onClick="operacao('*')">*</button>
+            </section>
+            <section>
+                <h2>Resultado da Operação realizada:</h2>
+                <h3 id="resultado"></h3>
+            </section>
+        </article>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <p>Todos os Direitos Reservados</p>
+    </footer>    
+</body>
+</html>
